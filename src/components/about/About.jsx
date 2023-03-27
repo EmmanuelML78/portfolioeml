@@ -22,7 +22,7 @@ const About = () => {
           <br />
           <br />
           Soy una persona Positiva, empática y curiosa, siempre tratando de mejorar. Me gustan las actividades al aire libre, la fotografía y el fútbol.
-          Empecé a programar en Enero de 2023 cuando entré en un Full Stack Developer Bootcamp y gané experiencia trabajando en algunos proyectos.
+          Empecé a programar en enero de 2023 cuando entré en un Full Stack Developer Bootcamp y gané experiencia trabajando en algunos proyectos.
           Actualmente estoy buscando un empleo donde pueda crecer profesionalmente, aprender y mejorar. Si quieres contratarme, ponte en contacto conmigo.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>         
