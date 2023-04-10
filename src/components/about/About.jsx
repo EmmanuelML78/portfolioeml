@@ -18,12 +18,10 @@ const About = () => {
 
         <div className="about__content">
           <p>
-          Hola, mi nombre es Emmanuel, soy un desarrollador Junior Full Stack.
+          Hola, mi nombre es Emmanuel!
           <br />
           <br />
-          Soy una persona Positiva, empática y curiosa, siempre tratando de mejorar. Me gustan las actividades al aire libre, la fotografía y el fútbol.
-          Empecé a programar en enero de 2023 cuando entré en un Full Stack Developer Bootcamp y gané experiencia trabajando en algunos proyectos.
-          Actualmente estoy buscando un empleo donde pueda crecer profesionalmente, aprender y mejorar. Si quieres contratarme, ponte en contacto conmigo.
+          Soy un Desarrollador Web Fullstack con gran capacidad para trabajar en equipo y consolidar proyectos web con entusiasmo y gran desempeño. Considero que tengo una gran capacidad de aprendizaje y adaptación, estoy constantemente aprendiendo nuevas tecnologías y mejorando mis habilidades. Soy una persona responsable y creativa, siempre intentando mejorar personal y profesionalmente.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>         
         </div>
