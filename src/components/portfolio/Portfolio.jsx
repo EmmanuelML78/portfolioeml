@@ -1,6 +1,7 @@
 import React from 'react'
 import IMG1 from '../../assets/porta1.PNG'
 import IMG2 from '../../assets/porta2.PNG'
+import IMG2 from '../../assets/porta3.PNG'
 import './portfolio.css'
 
 const data = [
@@ -17,6 +18,13 @@ const data = [
     title: 'Rick and Morty',
     github: 'https://github.com/EmmanuelML78/rick_and_morty',
     demo: 'https://rick-and-morty-delta-seven.vercel.app'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Snake',
+    github: 'https://github.com/EmmanuelML78/game-2',
+    demo: 'https://game-seven-eta.vercel.app/'
   },
  
 ]
