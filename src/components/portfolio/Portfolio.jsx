@@ -7,6 +7,13 @@ import "./portfolio.css";
 
 const data = [
   {
+    id: 4,
+    image: IMG4,
+    title: "El Predio",
+    github: "https://github.com/EmmanuelML78/EL-PREDIO",
+    demo: "https://el-predio.vercel.app/",
+  },
+  {
     id: 1,
     image: IMG1,
     title: "Dogs App",
@@ -27,13 +34,7 @@ const data = [
     github: "https://github.com/EmmanuelML78/game-2",
     demo: "https://game-seven-eta.vercel.app/",
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: "El Predio",
-    github: "https://github.com/EmmanuelML78/EL-PREDIO",
-    demo: "https://el-predio.vercel.app/",
-  },
+ 
 ];
 
 const Portfolio = () => {
