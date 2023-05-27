@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import project1 from "../../public/images/projects/porta1.PNG";
+import project1 from "../../public/images/projects/imagen1.PNG";
 import project4 from "../../public/images/projects/porta4.PNG";
 import project2 from "../../public/images/projects/porta2.PNG";
 
