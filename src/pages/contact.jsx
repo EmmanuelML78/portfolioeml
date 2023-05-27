@@ -8,7 +8,7 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const Contact = () => {
+function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -183,6 +183,6 @@ const Contact = () => {
       </main>
     </>
   );
-};
+}
 
 export default Contact;
