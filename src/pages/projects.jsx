@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { motion } from "framer-motion";
-import project1 from "../../public/images/projects/imagen1.PNG";
+
 import project4 from "../../public/images/projects/porta4.PNG";
 import project2 from "../../public/images/projects/porta2.PNG";
 
@@ -129,7 +129,6 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="web application to search for dog breeds"
-                img={project1}
                 summary="Henry Dogs es una aplicación web, la cual tiene una estructura de Back-end, Front-end, manejo de base de datos y solicitud a API externa, esta aplicación contiene una Loanding page al recibir el usuario, procede con el Home, donde el usuario puede moverse en la aplicación buscando razas de perros o filtrarlos según su preferencia, también cuenta con una sección donde puedes crear tu propia raza."
                 link="https://pi-dogs-lilac.vercel.app/"
                 github="https://github.com/EmmanuelML78/PI-Dogs"
