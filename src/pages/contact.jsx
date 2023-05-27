@@ -1,14 +1,14 @@
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { GithubIcon, LinkedInIcon, GmailIcon } from "@/components/Icons";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const contact = () => {
+const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -185,4 +185,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
