@@ -10,7 +10,7 @@ const Skill = ({ name, url }) => {
     shadow-md relative border border-dark
     flex flex-col items-center justify-center
     cursor-pointer hover:shadow-xl md:w-28 md:h-36 sm:w-24 sm:h-32 xs:w-20 xs:h-28 xxs:w-16 xxs:h-24 dark:bg-dark dark:border-light">
-      <Image src={url} alt={name} className="w-[90%] " />
+      <Image priority src={url} alt={name} className="w-[90%] " />
       <h2 className="text-dark  font-semibold text-sm mt-2 md:text-xs sm:text-xs xs:text-xs xxs:text-xs dark:text-light">
         {name}
       </h2>
