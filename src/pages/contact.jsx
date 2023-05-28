@@ -138,7 +138,7 @@ function Contact() {
               <GmailIcon />
             </motion.a>
           </div>
-          <div class="mt-6 mx-auto my-2 w-[500px] rounded-2xl border-2 shadow-lg dark:shadow-yellow-400 border-blue-500 bg-light dark:bg-dark dark:border-yellow-400">
+          <div class="mt-6 mx-auto my-2 w-[500px] xs:w-[300px]  rounded-2xl border-2 shadow-lg dark:shadow-yellow-400 border-blue-500 bg-light dark:bg-dark dark:border-yellow-400">
             <div class="p-5 space-y-5 shadow-xl  ">
               <form onSubmit={handleSubmit}>
                 <div class="grid grid-cols-2 gap-5 ">
