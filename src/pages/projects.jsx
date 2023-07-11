@@ -141,8 +141,8 @@ const projects = () => {
                 title="web application to search for character ID"
                 img={project2}
                 summary="Rick and Morty es una web la cual es muy dinamica y divertida, se trata de la presentación de usuarios de la serie, esta aplicacion tiene un desarrollo Front-end la cual tenía un serch-Bar para moverse en la aplicación, también cuenta con search para buscar nuevas tarjetas las cuales serían renderizadas y al presionar sobre ellas podrías tener información detallada del personaje"
-                link="https://pi-dogs-lilac.vercel.app/"
-                github="https://github.com/EmmanuelML78/PI-Dogs"
+                link="https://rick-and-morty-delta-seven.vercel.app/"
+                github="https://github.com/EmmanuelML78/rick_and_morty"
                 type="Rick and Morty"
               />
             </div>
