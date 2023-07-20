@@ -49,10 +49,6 @@ const Tech = [
     url: "https://iconape.com/wp-content/png_logo_vector/next-js-logo.png",
   },
   {
-    name: "GraphQL",
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png",
-  },
-  {
     name: "Tailwind",
     url: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/Tailwind_CSS_Logo.svg_GkNDLAs.png",
   },
