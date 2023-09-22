@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import project1 from "../../public/images/projects/imagen1.jpg";
 import project4 from "../../public/images/projects/porta4.jpg";
 import project2 from "../../public/images/projects/porta2.jpg";
+import project5 from "../../public/images/projects/porta5.gif";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -118,7 +119,17 @@ const projects = () => {
           <div className="grid grid-col-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="web application for court reservations"
+                title="pet dating web application"
+                img={project5}
+                summary="ThinderPet es una aplicación web, la cual tiene una estructura de Back-end, Front-end, manejo de base de datos. En el desarrollo de esta aplicación fui colaborador ya que fue el desarrollo de 6 personas. La aplicación es de citas para mascotas, esta aplicación contiene algunos componentes como Loading page, Home, sección de información, registro e ingreso de usuarios, entre otras cosas."
+                link="https://thinderpet.vercel.app/"
+                github="https://github.com/No-Country/c13-36-t-node-react"
+                type="ThinderPet"
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="web application for reservations"
                 img={project4}
                 summary="El predio es una aplicación web, la cual tiene una estructura de Back-end, Front-end, manejo de base de datos. En el desarrollo de esta aplicación fui colaborador ya que fue el desarrollo de 5 personas. La aplicación es de reservas de canchas de futbol, esta aplicación contiene algunos componentes como Loading page, Home, detalle, pasarela de pago, sección de información, sección de calificación y comentarios, registro e ingreso de usuarios, entre otras cosas."
                 link="https://el-predio.vercel.app/"
