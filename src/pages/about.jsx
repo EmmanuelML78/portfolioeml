@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import profilePic from "../../public/images/profile/me.png";
+import profilePic from "../../public/images/profile/me2.png";
 import Skills from "@/components/Skills";
 
 const about = () => {
@@ -43,7 +43,7 @@ const about = () => {
                 src={profilePic}
                 alt="Emmanuel Medina"
                 priority
-                className="w-full h-auto rounded-2x1"
+                className="w-full h-auto rounded-lg"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>

@@ -144,10 +144,10 @@ const projects = () => {
                 summary="Henry Dogs es una aplicación web, la cual tiene una estructura de Back-end, Front-end, manejo de base de datos y solicitud a API externa, esta aplicación contiene una Loanding page al recibir el usuario, procede con el Home, donde el usuario puede moverse en la aplicación buscando razas de perros o filtrarlos según su preferencia, también cuenta con una sección donde puedes crear tu propia raza."
                 link="https://pi-dogs-lilac.vercel.app/"
                 github="https://github.com/EmmanuelML78/PI-Dogs"
-                type="Dogs"
+                type="Dogs App"
               />
             </div>
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
                 title="web application to search for character ID"
                 img={project2}
@@ -156,7 +156,7 @@ const projects = () => {
                 github="https://github.com/EmmanuelML78/rick_and_morty"
                 type="Rick and Morty"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

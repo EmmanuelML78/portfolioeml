@@ -13,9 +13,9 @@ const CustomLink = ({ href, title, className = "" }) => {
       {title}
 
       <span
-        className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] esase duration-300 ${
+        className={`h-[1px] inline-block bg-dark dark:bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] esase duration-300 ${
           router.asPath === href ? "w-full" : "w-0"
-        }dark:bg-light`}>
+        }`}>
         &nbsp;
       </span>
     </Link>
@@ -37,9 +37,10 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
       {title}
 
       <span
-        className={`h-[1px] inline-block bg-light absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] esase duration-300 ${
-          router.asPath === href ? "w-full" : "w-0"
-        }dark:bg-dark`}>
+        className={`h-[1px] inline-block bg-dark 
+        absolute left-0 -bottom-0.5 
+        group-hover:w-full transition-[width] esase duration-300 
+        ${router.asPath === href ? "w-full" : "w-0"}dark:bg-dark`}>
         &nbsp;
       </span>
     </button>
@@ -81,13 +82,13 @@ const NavBar = () => {
             href="/projects"
             passHref
             title="Projects"
-            className="mr-4"
+            className="mx-4"
           />
           <CustomLink
             href="/contact"
             passHref
             title="Contact"
-            className="mr-4"
+            className="mx-4"
           />
         </nav>
 
