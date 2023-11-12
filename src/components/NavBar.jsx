@@ -37,10 +37,10 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
       {title}
 
       <span
-        className={`h-[1px] inline-block bg-dark 
+        className={`h-[1px] inline-block bg-light dark:bg-dark
         absolute left-0 -bottom-0.5 
         group-hover:w-full transition-[width] esase duration-300 
-        ${router.asPath === href ? "w-full" : "w-0"}dark:bg-dark`}>
+        ${router.asPath === href ? "w-full" : "w-0"}`}>
         &nbsp;
       </span>
     </button>
@@ -77,18 +77,18 @@ const NavBar = () => {
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
           <CustomLink href="/" passHref title="Home" className="mr-4" />
-          <CustomLink href="/about" passHref title="About" className="mx-4" />
+          <CustomLink href="/about" passHref title="About" className="mr-4" />
           <CustomLink
             href="/projects"
             passHref
             title="Projects"
-            className="mx-4"
+            className="mr-4"
           />
           <CustomLink
             href="/contact"
             passHref
             title="Contact"
-            className="mx-4"
+            className="mr-4"
           />
         </nav>
 
@@ -196,7 +196,7 @@ const NavBar = () => {
         </motion.div>
       ) : null}
 
-      <div className="absolute left-[50%] top-2 translate-x-[-50%S]">
+      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
       </div>
     </header>
