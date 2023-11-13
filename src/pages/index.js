@@ -53,7 +53,7 @@ export default function Home() {
                 <div className="flex items-center self-start mt-2 lg:self-center">
                   <Link
                     rel="preload"
-                    href="/CV_Emmanuel_Medina_Fullstack_developer.pdf"
+                    href="/EmmanuelMedina_CV_FullStack.pdf"
                     target={"_blank"}
                     className="flex items-center bg-dark text-light p-2 px-6 
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
