@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import profilesPic from "../../public/images/profile/port.png";
+import profilesPic from "../../public/images/profile/port4.png";
 import AnimatedText from "@/components/AnimatedText";
 import Loading from "../components/ScreenLoading/index";
 import { LinkArrow } from "@/components/Icons";
@@ -36,8 +36,7 @@ export default function Home() {
                   alt="Emmanuel Medina"
                   priority
                   className="w-100 h-auto lg:hidden md:inline-block md:w-100"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px)
-              50vw, 50vw"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
               </div>
               <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
