@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import profilesPic from "../../public/images/profile/port3.png";
+import profilesPic from "../../public/images/profile/port.png";
 import AnimatedText from "@/components/AnimatedText";
 import Loading from "../components/ScreenLoading/index";
 import { LinkArrow } from "@/components/Icons";
